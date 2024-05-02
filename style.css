@@ -1,0 +1,102 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto; /* Two columns */
+    /* You can adjust column widths as needed */
+    gap: 30px; /* Gap between items */
+}
+
+.gridcontainer2 {
+    display: grid;
+    grid-template-columns: auto auto; /* Two columns */
+    /* You can adjust column widths as needed */
+    gap: 30px; /* Gap between items */
+}
+
+.button-14 {
+  background-image: linear-gradient(#f7f8fa ,#e7e9ec);
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  box-shadow: black 0px inset;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",Arial,sans-serif;
+  font-size: 14px;
+  height: 50px;
+  font-size: 13px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 11px;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  width: 300px;
+}
+
+.button-14:active {
+  border-bottom-color: #a2a6ac;
+}
+
+.button-14:active:hover {
+  border-bottom-color: #a2a6ac;
+}
+
+.button-14:hover {
+  border-color: #a2a6ac #979aa1 #82858a;
+}
+
+.button-14:focus {
+  border-color: black;
+  box-shadow: rgba(228, 121, 17, .5) 0 0 3px 2px;
+  outline: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.grid1, .grid2 {
+    font-size: 20px;
+}
+
+.grid1{
+    margin-left: 40px;
+    width: 80%;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.grid2{
+    width: 20%;
+    border-radius: 10px; /* Adjust the value as needed */
+    border: 3px solid #ccc; /* Optional: Add a border for better visibility */
+    margin-right: 70px;
+    
+}
+
+.grid3{
+    margin-left: 400px;
+    width: 20%;
+}
+
+.grid4{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+#qrimg{
+    width: 180px;
+    height: 200px;
+}
+
+#qrtxt{
+    margin-left: 20px;
+    font-weight: 300 bold;
+}
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aebcbf+0,6e7774+50,0a0e0a+51,0a0809+100;Black+Gloss */
+
